@@ -1,0 +1,106 @@
+@import 'bootstrap-overrides.scss';
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  > div {
+    min-height: 100%;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+
+    main {
+      flex-grow: 1;
+    }
+  }
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-size: 5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+
+  div {
+    margin-top: -3%;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      color: #00adef;
+    }
+  }
+}
+
+section {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.lead {
+  font-size: 5rem;
+}
+
+.footsteps-container {
+  height: 0vh;
+  position: fixed;
+  left: 12px;
+  top: 0;
+  z-index: -10;
+  opacity: 0.6;
+  overflow: hidden;
+
+  img {
+    height: 100vh;
+  }
+}
+
+textarea {
+  background-image: url('/img/notes.png');
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+
+.poofWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  img {
+    position: absolute;
+  }
+
+  img {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+.continueMessage {
+  display: none;
+  opacity: 0;
+}
+
+.reframe {
+  align-items: center;
+  justify-content: center;
+}
+
+@import '~bootstrap/scss/bootstrap';
