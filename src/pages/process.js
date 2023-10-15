@@ -9,6 +9,7 @@ export default function Process() {
   return (
     <>
       <Section half animate>
+        <img src="/img/banner.png" alt="" className="report pb-5" />
         <h2>01. brainstorming</h2>
         <p>We kicked off our hackathon session by first identifying the track, and then the related problem spaces that we were interested in. We decided to approach vitality from four perspectives: physical, mental, emotional, and spiritual. We realized, however, that many of these areas overlap, and that vitality extends to all areas of life. Our favorite ideas were burnout society, time in nature, and sustainable knowledge, so we discussed these areas more in-depth, then proceeded to research and design. <a href="https://www.figma.com/file/nrRVzLhFi5ExRH9g1RrOas/DubHacks-23'?type=whiteboard&node-id=24%3A823&t=DbIqjDzRqKzTpIH9-1" target="_blank">You can view our chaotic brainstorming FigJam file here.</a></p>
         <img src="/img/brainstorm.jpg" className="report" />
@@ -21,6 +22,13 @@ export default function Process() {
       <Section half animate>
         <h2>3. process</h2>
         <p>Our team collaborated on the low-fidelity design process, then began to branch off into high-fidelity design (Annie and Stephanie), research and web development (Bella), and iOS development (Sean). Annie and Stephanie worked with Figma and Adobe Illustrator; Bella worked with Next.js, GSAP, SASS, and Bootstrap; and Sean worked with Swift. We maintained open communication and discussion throughout the process to ensure we stayed on the right track and adhered to our initial visions.</p>
+        <h3>3.1 design</h3>
+        <p><a href="https://www.figma.com/file/9X5AabfVYMBYkwerbrBOYy/DubHacks-23'?type=design&node-id=32%3A1400&mode=design&t=Ziw28LGMl86lQXhO-1" target="_blank">View our Figma wireframes here</a></p>
+        <p>We were inspired by Taiwan Design Expo and other minimalistic, whimsical designs for our branding.</p>
+        <img src="/img/inspiration.png" alt="" className="report" />
+        <h3>3.2 iOS development</h3>
+        <p>We worked on design and development simultaneously to cover more ground as a team.</p>
+        <img src="/img/development.png" alt="" className="report" />
       </Section>
       <Section animate>
         <h2>annotated bibliography</h2>
