@@ -10,27 +10,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }, [])
 
-  const [worryText, setWorryText] = useState("");
+  const [finalWorryText, setFinalWorryText] = useState("I guess you are a worry free person!");
   const [reframeRef, setReframeRef] = useState();
 
   useIsomorphicLayoutEffect(() => {
     const ctx = gsap.context(() => {
       if (!reframeRef) return
-
       gsap.to(reframeRef, {
         scrollTrigger: {
           trigger: reframeRef,
           scrub: 1,
           start: "top bottom",
           end: "bottom bottom",
-          onEnter: () => {
-            if (worryText === '' || worryText === ' ') {
-              setWorryText("I guess you are a worry free person!")
-            }
-          }
         },
         scale: 1
       })
@@ -41,7 +35,7 @@ export default function Home() {
 
   return (
     <>
-      <EnterWorries worryText={worryText} setWorryText={setWorryText} />
+      <EnterWorries setFinalWorryText={setFinalWorryText} />
       <Section animation half>
         <p className='lead'><em>You will be venturing out into the unknown, leaving behind things that may be familiar to you...</em></p>
         <p>Block out distractions with Umwelt and enjoy a hero’s journey through nature. During your walk, you will unlock various encounters in your surroundings. Look out for and capture these moments and absorb the beauty of the spaces around you.</p>
@@ -79,7 +73,7 @@ export default function Home() {
             </defs>
             <text>
               <textPath href="#MyPath">
-                {worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}</textPath>
+                {finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}{finalWorryText}</textPath>
             </text>
           </svg>
         </div>

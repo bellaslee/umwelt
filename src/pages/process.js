@@ -3,7 +3,7 @@ import Section from "@/components/Section";
 
 export default function Process() {
   useEffect(() => {
-    document.body.style.overflow = 'scroll'
+    window.scrollTo(0, 0);
   }, [])
 
   return (
@@ -20,7 +20,7 @@ export default function Process() {
       </Section>
       <Section half animate>
         <h2>3. process</h2>
-        <p>Our team collaborated on the low-fidelity design process, then began to branch off into high-fidelity design (Annie and Stephanie), research and web development (Bella), and iOS development (Sean).</p>
+        <p>Our team collaborated on the low-fidelity design process, then began to branch off into high-fidelity design (Annie and Stephanie), research and web development (Bella), and iOS development (Sean). Annie and Stephanie worked with Figma and Adobe Illustrator; Bella worked with Next.js, GSAP, SASS, and Bootstrap; and Sean worked with Swift. We maintained open communication and discussion throughout the process to ensure we stayed on the right track and adhered to our initial visions.</p>
       </Section>
       <Section animate>
         <h2>annotated bibliography</h2>
