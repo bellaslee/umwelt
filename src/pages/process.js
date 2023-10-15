@@ -16,11 +16,11 @@ export default function Process() {
         <img src="/img/narrowing-down.jpg" alt="Brainstorming mindmap" className="report" />
       </Section>
       <Section half animate>
-        <h2>2. problem space</h2>
-        <p>Burnout is a prevalent issue in today’s fast-paced society, as highlighted by Byung-Chul Han in his book The Burnout Society. Burnout is not a medical diagnosis. Rather, it is characterized by intense emotional exhaustion. This is caused by the productivity-focused, auto-exploitative society, as well as the information overload that comes with social media. Space today seems to be less “grounded” and more “virtual”. To combat this, we hope to provide uninterrupted time through Umwelt to help people recenter and revitalize. We provide small milestones for people to accomplish in a gamified manner. We chose walking through nature as an activity due to its accessibility and effectiveness, though, if we had more time, we would like to consider the design question of “how can we accommodate those who are not able-bodied or do not have safe communities to walk in?” Though we recognize that this is a systematic issue, we hope to make incremental changes through micro-interventions like Umwelt.</p>
+        <h2>02. problem space</h2>
+        <p>Burnout is a prevalent issue in today’s fast-paced society, as highlighted by Byung-Chul Han in his book The Burnout Society. Burnout is not a medical diagnosis. Rather, it is characterized by intense emotional exhaustion. This is caused by the productivity-focused, auto-exploitative society, as well as the information overload that comes with social media. Space today seems to be less “grounded” and more “virtual”. To combat this, we hope to provide uninterrupted time through Umwelt to help people recenter and revitalize. We provide small milestones for people to accomplish in a gamified manner, as maps and gamification are proven to be effective design choices to incentivize activity. We chose walking through nature as an activity due to its accessibility and effectiveness, though, if we had more time, we would like to consider the design question of “how can we accommodate those who are not able-bodied or do not have safe communities to walk in?” Though we recognize that this is a systematic issue, we hope to make incremental changes through micro-interventions like Umwelt.</p>
       </Section>
       <Section half animate>
-        <h2>3. process</h2>
+        <h2>03. process</h2>
         <p>Our team collaborated on the low-fidelity design process, then began to branch off into high-fidelity design (Annie and Stephanie), research and web development (Bella), and iOS development (Sean). Annie and Stephanie worked with Figma and Adobe Illustrator; Bella worked with Next.js, GSAP, SASS, and Bootstrap; and Sean worked with Swift. We maintained open communication and discussion throughout the process to ensure we stayed on the right track and adhered to our initial visions.</p>
         <h3>3.1 design</h3>
         <p><a href="https://www.figma.com/file/9X5AabfVYMBYkwerbrBOYy/DubHacks-23'?type=design&node-id=32%3A1400&mode=design&t=Ziw28LGMl86lQXhO-1" target="_blank">View our Figma wireframes here</a></p>
@@ -51,6 +51,7 @@ export default function Process() {
       </Section>
       <Section animate>
         <h2>annotated bibliography</h2>
+        <p>Han, Byung-Chul. The Burnout Society. Stanford University Press, 2015, http://www.sup.org/books/title/?id=25725, Accessed 15 Oct. 2023. </p>
         <p>Powell, K. Work&ndash;life balance: Break or burn out. Nature 545, 375&ndash;377 (2017). https://doi.org/10.1038/nj7654-375a</p>
         <ul>
           <li>Burnout is not a medical diagnosis</li>
