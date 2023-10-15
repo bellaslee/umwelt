@@ -16,6 +16,17 @@ body {
       flex-grow: 1;
     }
   }
+
+  a {
+    color: #00adef;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      color: #ed008c;
+    }
+  }
 }
 
 h1 {
@@ -27,6 +38,11 @@ img.report {
   width: 100%;
 }
 
+img.howWork {
+  width: 75%;
+  border-radius: 5px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -34,17 +50,6 @@ header {
 
   div {
     margin-top: -3%;
-  }
-
-  a {
-    color: #00adef;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 0.2s;
-
-    &:hover {
-      color: #ed008c;
-    }
   }
 
   h1 {
@@ -58,6 +63,10 @@ section {
   background-position: center;
   display: flex;
   flex-direction: column;
+}
+
+section.centered {
+  justify-content: center;
 }
 
 .lead {
