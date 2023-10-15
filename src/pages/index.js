@@ -101,6 +101,7 @@ export default function Home() {
 
       <Section>
         <h2>...with a functional prototype</h2>
+        <iframe width="100%" height="800" src="https://www.youtube.com/embed/rS5eb6bbxHg?si=vtKqiCmc56Lyan_J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </Section>
 
       <Section animation half>
