@@ -53,6 +53,7 @@ export default function Home() {
         <p>noun /ˈo͝omvelt/</p>
         <p className='lead'>Definition: individual perceptions of experiences and reality</p>
         <p>Burnout is the opposite of vitality — it is utter exhaustion. Through Umwelt, we hope to reshape individual perceptions of experiences and reality to revitalize daily life. In doing so, we hope to drive transformation in modern productivity culture and curb the development of a burnout society.</p>
+        <p>Our research shows that walking is a sustainable way to promote health and well-being. Additionally, maps and gamification are effective design choices to promote physical activity. On top of these findings, we incorporated a meditative and reflective component to encourage vitality in all aspects, from physical to spiritual.</p>
       </Section >
 
       <Section>

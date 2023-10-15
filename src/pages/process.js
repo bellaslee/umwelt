@@ -120,6 +120,7 @@ export default function Process() {
             <li>&rarr; 💡Striking a fine balance by providing gamified, yet mindful breaks</li>
           </ul>
         </ul>
+        <p>“Let's all get up and walk to the North Pole: design and evaluation of a mobile wellness application.” Proceedings of the 6th Nordic Conference on Human-Computer Interaction: Extending Boundaries, 2010, pp. 3–12, https://dl.acm.org/doi/abs/10.1145/1868914.1868920.</p>
       </Section>
       <Section half animate>
         <h2>attributions</h2>
