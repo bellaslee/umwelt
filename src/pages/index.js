@@ -40,7 +40,7 @@ export default function Home() {
       <Section animation half>
         <Row>
           <Col lg={4}>
-            <img src="/img/home-screen.png" alt="" className="report" />
+            <img src="/img/home-screen.png" alt="Umwelt's home screen" className="report" />
           </Col>
           <Col className="d-flex flex-column justify-content-center" lg>
             <p className='lead'><em>You will be venturing out into the unknown, leaving behind things that may be familiar to you...</em></p>
@@ -60,34 +60,34 @@ export default function Home() {
         <h2>How it works</h2>
         <Row>
           <Col lg>
-            <img src="/img/box-frame.jpg" alt="" className="howWork" />
+            <img src="/img/box-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">1. Release your worries</h3>
             <p>The app will prompt you to enter your worries and cast them away for the moment.</p>
           </Col>
           <Col lg>
-            <img src="/img/venturing-frame.jpg" alt="" className="howWork" />
+            <img src="/img/venturing-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">2. Begin your journey</h3>
             <p>You will only have access to important apps, in case of an emergency. We challenge you to unplug completely, if possible!</p>
           </Col>
           <Col lg>
-            <img src="/img/map-frame.jpg" alt="" className="howWork" />
+            <img src="/img/map-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">3. Experience the magic around you</h3>
             <p>Experientially journal your adventure with mystical prompts that frame your hero's journey. It's up to you to capture the moment!</p>
           </Col>
         </Row>
         <Row>
           <Col lg>
-            <img src="/img/story-frame.jpg" alt="" className="howWork" />
+            <img src="/img/story-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">4. Reflect on your story</h3>
             <p>Look back on your travels and encounters with fond memories.</p>
           </Col>
           <Col lg>
-            <img src="/img/end-frame.jpg" alt="" className="howWork" />
+            <img src="/img/end-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">5. Reach a heroic conclusion</h3>
             <p>All good things must come to an end...</p>
           </Col>
           <Col lg>
-            <img src="/img/result-frame.jpg" alt="" className="howWork" />
+            <img src="/img/result-frame.jpg" alt="Screenshot from Umwelt" className="howWork" />
             <h3 className="py-3">6. Reshape your experience</h3>
             <p>...but through every step, you are revitalized.</p>
           </Col>
