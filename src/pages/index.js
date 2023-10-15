@@ -110,11 +110,11 @@ export default function Home() {
 
       <Section animation>
         <h2>Vision</h2>
-        <h3 className='py-3'>🌱 Encouraging sustainable and balanced lifestyles</h3>
+        <h3 className='py-3'>🌱 Encourage sustainable and balanced lifestyles</h3>
         <p>It can be difficult to swim against the currents of social media in an age of constant information overload. With Umwelt, we can embark on an adventure of mindset transformation to move towards a balanced life. </p>
-        <h3 className='py-3'>🔁 Transforming experiences to enhance our collective vitality</h3>
+        <h3 className='py-3'>🔁 Transform experiences to enhance our collective vitality</h3>
         <p>Let’s take a moment to reshape our interactions with the spaces we inhabit to nourish our physical, mental, and spiritual vitality.</p>
-        <h3 className='py-3'>💫 Becoming able to simply exist</h3>
+        <h3 className='py-3'>💫 Become able to simply exist</h3>
         <p>What does it mean to live a “good” life? Taking a walk in nature is “unproductive” by societal standards, which is precisely why we should do it: to relish in the art of lingering and of simply <em>being</em>.</p>
       </Section>
 
