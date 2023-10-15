@@ -30,6 +30,25 @@ export default function Process() {
         <p>We worked on design and development simultaneously to cover more ground as a team.</p>
         <img src="/img/development.png" alt="" className="report" />
       </Section>
+      <Section half animate>
+        <h2>04. challenges</h2>
+        <p>As a team, our main challenge was brainstorming ways to use technology to encourage independence from it. For Sean, it was challenging to learn how to use iOS frameworks for the camera and map under time constraints. For Annie and Stephanie, the linear user flow was challenging due to being different from what you’d expect from a typical app.</p>
+      </Section>
+      <Section half animate>
+        <h2>05. what we're proud of</h2>
+        <p>This is our first in-person hackathon experience, so we are proud of coming this far under immense time pressure. Our ideation process was highly enjoyable, and we are proud of stepping out of our comfort zones to design an experience rather than a tool. We also figured out our strengths quickly and adapted to fit them into the creation process.</p>
+      </Section>
+      <Section half animate>
+        <h2>06. takeaways</h2>
+        <p>So much… The design team learned how to animate boxes, Sean learned iOS animation and frameworks, Bella learned new front-end animation and interaction techniques, and we all learned how to collaborate within a cross-functional team.</p>
+      </Section>
+      <Section half animate>
+        <h2>07. about the team</h2>
+        <p><a href="https://www.linkedin.com/in/an-yao-pao-6992a1217" target="_blank" rel="noopener noreferrer">Annie Pao</a> is an HCDE student at the University of Washington. She worked on the ideation process as well as using figma to create low and high fidelity prototypes, and additionally using Figma to create the animations for our visual assets.</p>
+        <p><a href="https://bellalee.com" target="_blank" rel="noopener noreferrer">Bella Lee</a> is an Informatics student at the University of Washington. She worked on the ideation process, literature review, product management, front-end web development, and copywriting, with a focus on marketing and stakeholder connection.</p>
+        <p><a href="https://minorenji.github.io/" target="_blank" rel="noopener noreferrer">Sean Lim</a> is a Computer Science student at the University of Washington. He worked on the mobile app prototype. Although he has tried developing for iOS before, it was his first time using frameworks like AVFoundation (Camera) and MapKit. Overall, he enjoyed being able to rapidly implement an idea.</p>
+        <p><a href="https://www.linkedin.com/in/stephanie-chou-4066a51b9/" target="_blank" rel="noopener noreferrer">Stephanie Chou</a> is a Design student at the University of Washington. She worked on the ideation process and visual identity for the app, as well as the visual assets (low poly scenery, box, etc). She also worked on prototyping lo-fi and hi-fi screens for Umwelt.</p>
+      </Section>
       <Section animate>
         <h2>annotated bibliography</h2>
         <p>Powell, K. Work&ndash;life balance: Break or burn out. Nature 545, 375&ndash;377 (2017). https://doi.org/10.1038/nj7654-375a</p>
