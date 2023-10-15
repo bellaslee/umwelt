@@ -10,9 +10,6 @@ export default function EnterWorries({ worryText, setWorryText }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     document.body.style.overflow = 'scroll';
-    if (worryText === "" || worryText === " ") {
-      setWorryText("I guess you are a worry free person!")
-    }
     gsap.timeline({
       duration: 0.1,
       ease: 'power4.out'
