@@ -87,7 +87,7 @@ export default function Home() {
             <p>All good things must come to an end...</p>
           </Col>
           <Col lg>
-            <img src="/img/start-frame.jpg" alt="" className="howWork" />
+            <img src="/img/result-frame.jpg" alt="" className="howWork" />
             <h3 className="py-3">6. Reshape your experience</h3>
             <p>...but through every step, you are revitalized.</p>
           </Col>
