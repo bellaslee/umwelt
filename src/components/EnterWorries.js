@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Section from "./Section";
-import { Col, Row } from "react-bootstrap";
 import gsap from "gsap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function EnterWorries({ worryText, setWorryText }) {
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    document.body.style.overflow = 'hidden';
-  }, [])
 
   const handleSubmit = (e) => {
     e.preventDefault();

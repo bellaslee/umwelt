@@ -25,7 +25,12 @@ export default function Home() {
           trigger: reframeRef,
           scrub: 1,
           start: "top bottom",
-          end: "bottom bottom"
+          end: "bottom bottom",
+          onEnter: () => {
+            if (worryText === '' || worryText === ' ') {
+              setWorryText("I guess you are a worry free person!")
+            }
+          }
         },
         scale: 1
       })
@@ -73,7 +78,8 @@ export default function Home() {
                 stroke="black" />
             </defs>
             <text>
-              <textPath href="#MyPath">{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}</textPath>
+              <textPath href="#MyPath">
+                {worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}</textPath>
             </text>
           </svg>
         </div>
