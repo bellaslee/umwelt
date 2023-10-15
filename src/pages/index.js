@@ -73,7 +73,7 @@ export default function Home() {
                 stroke="black" />
             </defs>
             <text>
-              <textPath href="#MyPath">{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}</textPath>
+              <textPath href="#MyPath">{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}{worryText}</textPath>
             </text>
           </svg>
         </div>

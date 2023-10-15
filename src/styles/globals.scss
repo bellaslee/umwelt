@@ -23,13 +23,14 @@ h1 {
   font-size: 5rem;
 }
 
-img {
+img.report {
   width: 100%;
 }
 
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   div {
     margin-top: -3%;

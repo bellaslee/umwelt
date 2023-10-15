@@ -10,7 +10,8 @@ export default function Header({ font }) {
     <header className={`${font.className} container pt-3`}>
       <Link href="/"><h1 className={`display-4 ${gayathri.className}`}>Umwelt</h1></Link>
       <div className='px-3'>
-        <Link href="process">development report</Link>
+        <Link href="/" className='px-3'>home</Link>
+        <Link href="process" className='px-3'>development report</Link>
       </div>
     </header>
   )

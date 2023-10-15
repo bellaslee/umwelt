@@ -11,8 +11,8 @@ export default function Process() {
       <Section half animate>
         <h2>01. brainstorming</h2>
         <p>We kicked off our hackathon session by first identifying the track, and then the related problem spaces that we were interested in. We decided to approach vitality from four perspectives: physical, mental, emotional, and spiritual. We realized, however, that many of these areas overlap, and that vitality extends to all areas of life. Our favorite ideas were burnout society, time in nature, and sustainable knowledge, so we discussed these areas more in-depth, then proceeded to research and design. <a href="https://www.figma.com/file/nrRVzLhFi5ExRH9g1RrOas/DubHacks-23'?type=whiteboard&node-id=24%3A823&t=DbIqjDzRqKzTpIH9-1" target="_blank">You can view our chaotic brainstorming FigJam file here.</a></p>
-        <img src="/img/brainstorm.jpg" />
-        <img src="/img/narrowing-down.jpg" />
+        <img src="/img/brainstorm.jpg" className="report" />
+        <img src="/img/narrowing-down.jpg" className="report" />
       </Section>
       <Section half animate>
         <h2>2. problem space</h2>
