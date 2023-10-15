@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Section from "./Section";
 import { Col, Row } from "react-bootstrap";
 import gsap from "gsap";
@@ -6,14 +6,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 
-export default function EnterWorries() {
-  const [worryText, setWorryText] = useState("");
+export default function EnterWorries({ worryText, setWorryText }) {
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+  }, [])
 
   const handleSubmit = (e) => {
     e.preventDefault();
     document.body.style.overflow = 'scroll';
     if (worryText === "" || worryText === " ") {
-      setWorryText("I guess you are a very stress free person!")
+      setWorryText("I guess you are a worry free person!")
     }
     gsap.timeline({
       duration: 0.1,
@@ -60,7 +63,7 @@ export default function EnterWorries() {
       <div className="poofWrapper pt-5">
         <form className="text-center">
           <textarea name="worry" id="worry" cols="50" rows="12" value={worryText} placeholder="I'm worried about..." onChange={e => setWorryText(e.target.value)
-          } className="poof" minlength="10"></textarea><br />
+          } className="poof" minLength="10"></textarea><br />
           <button className="btn btn-primary" type="submit" onClick={(e) => handleSubmit(e)}>Done</button>
           <img src="/img/starburst.png" />
         </form>

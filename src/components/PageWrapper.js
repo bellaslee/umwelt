@@ -30,7 +30,7 @@ export default function PageWrapper({ children }) {
     }, footstepRef)
 
     return () => ctx.revert();
-  })
+  }, [footstepRef])
 
   return (
     <>

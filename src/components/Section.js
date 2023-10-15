@@ -27,7 +27,6 @@ export default function Section({ children, className, animation, half }) {
     return () => ctx.revert();
   }) : ''
 
-  console.log(half);
   return (
     <section className={`py-5 ${className}`} ref={setSectionRef} style={half ? { minHeight: '50vh' } : {}}>
       <Container>{children}</Container>
