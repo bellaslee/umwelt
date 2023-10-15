@@ -65,6 +65,17 @@ section {
   flex-direction: column;
 }
 
+textarea {
+  width: 50%;
+  height: 250px;
+}
+
+@media screen and (max-width: 992px) {
+  textarea {
+    width: 100%;
+  }
+}
+
 section.centered {
   justify-content: center;
 }

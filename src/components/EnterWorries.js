@@ -59,8 +59,8 @@ export default function EnterWorries({ setFinalWorryText }) {
           <textarea
             name="worry"
             id="worry"
-            cols="50"
-            rows="12"
+            // cols="50"
+            // rows="12"
             value={worryText}
             placeholder="I'm worried about..."
             onChange={e => setWorryText(e.target.value)

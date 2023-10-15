@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useIsomorphicLayoutEffect } from '@/helpers/useIsomorphicEffect';
 import { Row, Col } from 'react-bootstrap';
+import Head from 'next/head';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -36,6 +37,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Umwelt | Dubhacks 2023</title>
+      </Head>
       <EnterWorries setFinalWorryText={setFinalWorryText} />
       <Section animation half>
         <Row>
@@ -96,13 +100,13 @@ export default function Home() {
 
       <Section animation>
         <h2>A taste of adventure...</h2>
-        <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9X5AabfVYMBYkwerbrBOYy%2FDubHacks-23'%3Ftype%3Ddesign%26node-id%3D32-1401%26t%3DHm35RcQj9WH2A7UI-1%26scaling%3Dmin-zoom%26page-id%3D32%253A1400%26starting-point-node-id%3D32%253A1401%26mode%3Ddesign" allowfullscreen></iframe>
+        <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F9X5AabfVYMBYkwerbrBOYy%2FDubHacks-23'%3Ftype%3Ddesign%26node-id%3D32-1401%26t%3DHm35RcQj9WH2A7UI-1%26scaling%3Dmin-zoom%26page-id%3D32%253A1400%26starting-point-node-id%3D32%253A1401%26mode%3Ddesign" allowFullScreen></iframe>
       </Section>
 
       <Section>
         <h2>...with a functional prototype</h2>
         <p><a href="https://github.com/minorenji/Dubhacks23" target="_blank" rel="noopener noreferrer">View source code here</a></p>
-        <iframe width="100%" height="800" src="https://www.youtube.com/embed/rS5eb6bbxHg?si=vtKqiCmc56Lyan_J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="800" src="https://www.youtube.com/embed/rS5eb6bbxHg?si=vtKqiCmc56Lyan_J" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </Section>
 
       <Section animation half>

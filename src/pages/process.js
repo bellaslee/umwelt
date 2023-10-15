@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Section from "@/components/Section";
+import Head from "next/head";
 
 export default function Process() {
   useEffect(() => {
@@ -8,6 +9,9 @@ export default function Process() {
 
   return (
     <>
+      <Head>
+        <title>Umwelt | Dubhacks 2023</title>
+      </Head>
       <Section half animate>
         <img src="/img/banner.jpeg" alt="Umwelt banner" className="report pb-5" />
         <h2>01. brainstorming</h2>
